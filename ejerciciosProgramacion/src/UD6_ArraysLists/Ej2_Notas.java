@@ -24,9 +24,6 @@ public class Ej2_Notas {
                 numNotas++;
             }
             
-            //if(nota == 10){
-           //     hay10 = true;
-           // }
             else if(nota == -1){
                 break;
             }
@@ -59,7 +56,7 @@ public class Ej2_Notas {
         System.out.println("Total aprobados: "+aprobados+ "\n");
         System.out.println("Total suspendidos: " +suspensos+"\n");
         if(hay10 == true){
-            System.out.println("Hay algun 10 \n");
+            System.out.println("Hay 10 \n");
         }
         System.out.println("Nota media: " + (total/numNotas));
     }
