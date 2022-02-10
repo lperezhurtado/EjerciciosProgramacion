@@ -14,7 +14,7 @@ public class Ej3_Precios {
         
         double precio;
         
-        do {
+        do {  
             System.out.print("Dime precio: ");
             precio = lector.nextDouble();
             
