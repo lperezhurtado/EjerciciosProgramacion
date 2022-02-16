@@ -12,7 +12,7 @@ public class Ej11 {
         
         int[] numeros;
         
-        int n = (int) (Math.random() * (100 - 1 +1) + 1);
+        int n = (int) ( 1 + Math.random() * (100 - 1));
         int numero, pos = 0;
         numeros = new int[n];
         
@@ -21,7 +21,7 @@ public class Ej11 {
             try{
                 for (int i = 0; i < numeros.length; i++) {
                     
-                    numero = (int)(Math.random() * (10 - 1 +1) + 1);
+                    numero = (int)( 1 + Math.random() * (10 - 1));
                     numeros[i] = numero;
                 }
                 
